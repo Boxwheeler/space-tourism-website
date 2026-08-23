@@ -1,0 +1,98 @@
+/*HOME*/
+
+body {
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*HOME-HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+header svg {
+    align-self: center;
+}
+
+header nav {
+   background-color: rgba(255, 255, 255, 0.001);
+   backdrop-filter: blur(30px);
+   -webkit-backdrop-filter: blur(30px);
+   padding: 2.5rem 7rem;
+   margin-right: -3rem;
+}
+
+header .header-line {
+    flex: 1;
+    height: 1px;
+    align-self: center;
+    margin-left: 4rem;
+    margin-right: -10px;
+    position: relative;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+/*HOME-MAIN*/
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-main);
+    color: rgba(0, 0, 0,  0.8);
+    margin-right: 40px;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    border-radius: 50%;
+    font-family: var(--font-serif);
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: 8.5rem;
+    right: 9rem;
+}
+
+main .home-text h1 {
+    margin-left: 1px;
+    margin-bottom: 40px;
+    font-size: 8.9rem;
+    letter-spacing: 10px;
+    font-family: var(--font-serif);
+}
+
+main .home-text p:first-child {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: var(--font-condense);
+}
+
+main .home-text p:last-child {
+    font-size: 1.2rem;
+    max-width: 450px;
+    color: var(--text-muted);
+    line-height: 1.5;
+
+}
