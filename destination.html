@@ -13,31 +13,31 @@
 </head>
 <body class="destination-body">
     <header>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" aria-label="space-tourism logo" role="img">
             <g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/>
                 <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/>
             </g>
         </svg>
 
         <hr class="header-line">
-        <button class="hamburger">&#9776;</button>
-        <nav>
+        <button class="hamburger" aria-label="open navigation menu">&#9776;</button>
+        <nav aria-label="main navigation">
             <ul>
                 <li>
                     <a href="index.html">
-                        <span class="nav-number">00</span> HOME</a>
+                        <span class="nav-number" aria-hidden="true">00</span> HOME</a>
                 </li>
                 <li>
                     <a href="destination.html" class="active">
-                        <span class="nav-number">01</span> DESTINATION</a>
+                        <span class="nav-number" aria-current="page">01</span> DESTINATION</a>
                 </li>
                 <li>
                     <a href="crew.html">
-                        <span class="nav-number">02</span> CREW</a>
+                        <span class="nav-number" aria-hidden="true">02</span> CREW</a>
                 </li>
                 <li>
                     <a href="technology.html">
-                        <span class="nav-number">03</span> TECHNOLOGY</a>
+                        <span class="nav-number" aria-hidden="true">03</span> TECHNOLOGY</a>
                 </li>
             </ul>
         </nav>
@@ -45,17 +45,17 @@
 
     <main class="destination-main">
         <section class="destination-option">
-            <h1><span class="section-number">01</span>PICK YOUR DESTINATION</h1>
+            <h1><span class="section-number" aria-hidden="true">01</span>PICK YOUR DESTINATION</h1>
             <img src="./assets/destination/image-moon.webp" id="planet-img" alt="Planet Mars">
         </section>
         <section class="destination-description">
-            <nav class="planet-choice">
+            <nav class="planet-choice" aria-label="planet-selection">
                 <ul>
                     <li>
                         <a href="#" data-planet="Mars">MARS</a>                
                     </li>
                     <li>
-                        <a href="#" data-planet="Moon" class="active">MOON</a>                
+                        <a href="#" data-planet="Moon" class="active" aria-current="true">MOON</a>                
                     </li>
                     <li>
                         <a href="#" data-planet="Europa">EUROPA</a>                
