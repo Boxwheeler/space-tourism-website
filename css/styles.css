@@ -463,6 +463,11 @@ body.technology-body {
         padding: 0;
     }
 
+    #planet-img {
+        width: clamp(200px, 80vh, 350px);
+        height: clamp(200px, 80vh, 350px);
+    }
+
     .destination-option {
         width: 100%;
         padding-left: 2rem;
@@ -538,6 +543,7 @@ body.technology-body {
         width: 100%;
         height: clamp(200px, 80vh, 600px);
         object-fit: cover;
+        padding-left: 0.5rem;
     }
 
     .technology-main h1 {
